@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600&display=swap');
+
+.projects-section {
+    padding: 5rem 2rem;
+    background: #f3f6fd;
+    text-align: center;
+}
+
+.projects-title {
+    font-size: 2.75rem;
+    color: #1e293b;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    position: relative;
+    letter-spacing: 0.5px;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    overflow: auto;
+}
+
+.project-card {
+    background: #e9edf5;
+    border-radius: 1.5rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: default;
+    overflow: hidden;
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+}
+
+.project-card-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.project-image-wrapper {
+    flex: 1 1 300px;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-image-wrapper img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 1rem;
+    cursor: zoom-in;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    background-color: #f1f5f9;
+}
+
+.project-info {
+    flex: 2 1 400px;
+}
+
+.project-title {
+    font-size: 1.85rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #0f172a;
+    margin-bottom: 0.75rem;
+}
+
+.project-tech {
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #4b5563;
+    margin-bottom: 0.8rem;
+}
+
+.project-description {
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #374151;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.project-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.2rem;
+    gap: 1rem;
+}
+
+.project-link {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: #2563eb;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background: #f1f5f9;
+    padding: 0.75rem;
+    border-radius: 999px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+}
+
+.project-link:hover {
+    transform: perspective(500px) rotateX(8deg) rotateY(8deg) scale(1.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    color: #1e40af;
+}
+
+.project-link svg {
+    color: #0f172a;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.project-link:hover svg {
+    color: #2563eb;
+    transform: scale(1.2);
+}
+
+.project-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    cursor: zoom-out;
+}
+
+.project-modal img {
+    max-width: 90%;
+    max-height: 85%;
+    border-radius: 1rem;
+    object-fit: contain;
+}
+
+.project-modal-close {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    font-size: 2.5rem;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 10000;
+    transition: opacity 0.3s;
+}
+
+.project-modal-close:hover {
+    opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+    .project-card {
+        min-width: 90%;
+        flex: 0 0 auto;
+        scroll-snap-align: center;
+        padding: 1.5rem;
+    }
+
+    .projects-container {
+        flex-direction: row;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scroll-padding: 1rem;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 1rem;
+    }
+
+    .project-card-content {
+        flex-direction: column;
+    }
+
+    .project-title {
+        font-size: 1.5rem;
+    }
+
+    .project-description {
+        font-size: 0.95rem;
+    }
+
+    .project-links {
+        justify-content: flex-start;
+    }
+}
+
+.title-underline {
+    width: 500px;
+    height: 4px;
+    background: linear-gradient(90deg, #6366f1, #3b82f6);
+    margin: 0 auto;
+    border-radius: 4px;
+    transition: transform 0.3s ease-in-out;
+}
+.projects-container-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
