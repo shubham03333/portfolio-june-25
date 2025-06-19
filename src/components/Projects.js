@@ -15,7 +15,7 @@ const projects = [
     description:
       "The RTO Management System is designed following SOLID design principles, facilitating efficient RTO operations and streamlined communication among staff. The project consists of a React.js frontend and a Spring Boot backend, with MySQL as the database.",
     image: hmsImg,
-    // github: "https://github.com/Vishalvj13/hospital-management-system",
+    github: "https://github.com/shubham03333/rto-management-system-FE.git",
   },
   //   {
   //     title: "Quiz Management Microservices using Spring Boot & Spring Cloud",
