@@ -48,6 +48,9 @@ const About = () => {
               <strong>
                 <em>MySQL</em>
               </strong>{" "}
+              <strong>
+                <em>Oracle</em>
+              </strong>{" "}
               👋), and occasionally dabbling in{" "}
               <strong>
                 <em>React</em>

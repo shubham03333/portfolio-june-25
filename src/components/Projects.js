@@ -42,7 +42,7 @@ const projects = [
     description:
       "This portfolio serves as a dynamic digital resume, built to highlight my professional journey and achievements with smooth animations and clean design. The site features sections like About, Skills, Projects, Experience, Education, and Contact all crafted with interactive elements. It’s a central hub for recruiters and collaborators to view my credentials and work at a glance.",
     image: websiteImg,
-    // github: "https://github.com/Vishalvj13/portfolio-vishal",
+    github: "https://github.com/shubham03333/portfolio-june-25.git",
   },
 ];
 
