@@ -78,7 +78,7 @@ const Home = () => {
             >
               <img src={awsPractitioner} alt="AWS Cloud Practitioner" />
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.credly.com/badges/d1920647-e276-436e-8334-0ba32828d1a3/public_url" target="_blank" rel="noopener noreferrer">
               <img src={awsSAA} alt="AWS Solutions Architect Associate" />
             </a>
             {/* <a
