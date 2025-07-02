@@ -81,13 +81,13 @@ const Home = () => {
             <a href="https://www.credly.com/badges/d1920647-e276-436e-8334-0ba32828d1a3/public_url" target="_blank" rel="noopener noreferrer">
               <img src={awsSAA} alt="AWS Solutions Architect Associate" />
             </a>
-            {/* <a
-              href="https://www.credly.com/badges/3d8c0290-02a1-4998-b922-5c0b74e1b819/public_url"
+             <a
+              href="https://www.credly.com/badges/2185c6da-123c-4ef8-a4c2-c8669bef8d9b/public_url"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img src={awsDVA} alt="AWS Developer Associate" />
-            </a> */}
+            </a> 
           </div>
 
           {/* Buttons */}
