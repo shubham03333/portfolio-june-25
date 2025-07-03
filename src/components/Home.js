@@ -98,7 +98,7 @@ const Home = () => {
             transition={{ delay: 1.2, duration: 0.6 }}
           >
             <a
-              href="https://drive.google.com/file/d/1JiuhUCI0W-0dQd2ReMordtohlSUxJ_rY/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1kDDRNdAD1sfcl3HJruqC-tV-ABViGME7/view?usp=drive_link"
               className="download-btn"
               download
             >
