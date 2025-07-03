@@ -99,6 +99,7 @@ const Home = () => {
           >
             <a
               href="https://drive.google.com/file/d/1kDDRNdAD1sfcl3HJruqC-tV-ABViGME7/view?usp=drive_link"
+              target="_blank"
               className="download-btn"
               download
             >
