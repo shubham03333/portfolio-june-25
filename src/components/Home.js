@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/Home.css";
-import profileImg from "../assets/photo1.png";
 import profileImg1 from "../assets/photo_primary2.png";
 import Navbar from "./Navbar";
 import { Typewriter } from "react-simple-typewriter";
@@ -78,16 +77,20 @@ const Home = () => {
             >
               <img src={awsPractitioner} alt="AWS Cloud Practitioner" />
             </a>
-            <a href="https://www.credly.com/badges/d1920647-e276-436e-8334-0ba32828d1a3/public_url" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.credly.com/badges/d1920647-e276-436e-8334-0ba32828d1a3/public_url"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={awsSAA} alt="AWS Solutions Architect Associate" />
             </a>
-             <a
+            <a
               href="https://www.credly.com/badges/2185c6da-123c-4ef8-a4c2-c8669bef8d9b/public_url"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img src={awsDVA} alt="AWS Developer Associate" />
-            </a> 
+            </a>
           </div>
 
           {/* Buttons */}
