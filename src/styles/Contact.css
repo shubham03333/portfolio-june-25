@@ -72,13 +72,29 @@
 
 /* Tablet and smaller */
 @media (max-width: 768px) {
+    .contact-section {
+        padding: 4rem 1rem;
+    }
+
     .contact-title {
         font-size: 2.25rem;
+    }
+
+    .contact-content {
+        padding: 0;
     }
 
     .contact-message {
         font-size: 1rem;
         padding: 0 1rem;
+    }
+
+    .contact-icons {
+        gap: 1.5rem;
+    }
+
+    .contact-icon {
+        padding: 0.9rem;
     }
 
     .contact-icon svg {
@@ -89,12 +105,25 @@
 
 /* Phones ≤ 480px */
 @media (max-width: 480px) {
+    .contact-section {
+        padding: 3rem 1rem;
+    }
+
     .contact-title {
         font-size: 2rem;
     }
 
+    .contact-content {
+        padding: 0;
+    }
+
     .contact-message {
         font-size: 0.95rem;
+        padding: 0 0.5rem;
+    }
+
+    .contact-icons {
+        gap: 1rem;
     }
 
     .contact-icon {
@@ -104,9 +133,5 @@
     .contact-icon svg {
         width: 22px;
         height: 22px;
-    }
-
-    .contact-icons {
-        gap: 1.25rem;
     }
 }

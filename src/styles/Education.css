@@ -108,8 +108,16 @@
 
 /* Tablet and smaller */
 @media (max-width: 768px) {
+    .education-section {
+        padding: 4rem 1rem;
+    }
+
     .education-title {
         font-size: 2.25rem;
+    }
+
+    .education-horizontal-stack {
+        gap: 1.5rem;
     }
 
     .edu-flip-card {
@@ -120,6 +128,7 @@
     .edu-front,
     .edu-back {
         font-size: 1rem;
+        padding: 0.75rem;
     }
 
     .edu-icon svg {
@@ -136,14 +145,28 @@
 
 /* Mobile phones */
 @media (max-width: 480px) {
+    .education-section {
+        padding: 3rem 1rem;
+    }
+
     .education-title {
         font-size: 2rem;
         flex-direction: column;
     }
 
+    .education-horizontal-stack {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
     .edu-flip-card {
         width: 90%;
-        height: 200px;
+        height: 180px;
+    }
+
+    .edu-front,
+    .edu-back {
+        padding: 0.5rem;
     }
 
     .edu-icon svg {

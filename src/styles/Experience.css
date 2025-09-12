@@ -198,9 +198,23 @@
 
 /* Responsive */
 @media screen and (max-width: 768px) {
+    .timeline-section {
+        padding: 3rem 1rem;
+    }
+
+    .timeline-title {
+        font-size: 2.25rem;
+    }
+
+    .timeline-container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
     .timeline-item {
         flex-direction: column;
         align-items: center;
+        margin-bottom: 2rem;
     }
 
     .timeline-left,
@@ -208,6 +222,7 @@
         padding-left: 0;
         padding-right: 0;
         text-align: center;
+        min-width: auto;
     }
 
     .timeline-line {
@@ -217,6 +232,53 @@
 
     .timeline-middle {
         margin-bottom: 1rem;
+    }
+
+    .experience-card {
+        padding: 1rem;
+    }
+
+    .experience-card h3 {
+        font-size: 1.1rem;
+    }
+
+    .experience-card h4 {
+        font-size: 0.9rem;
+    }
+
+    .experience-card ul li {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .timeline-section {
+        padding: 2rem 1rem;
+    }
+
+    .timeline-title {
+        font-size: 2rem;
+    }
+
+    .timeline-container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .experience-card {
+        padding: 0.75rem;
+    }
+
+    .experience-card h3 {
+        font-size: 1rem;
+    }
+
+    .experience-card h4 {
+        font-size: 0.85rem;
+    }
+
+    .experience-card ul li {
+        font-size: 0.85rem;
     }
 }
 .flip-card-inner-wrapper {

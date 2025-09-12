@@ -175,24 +175,26 @@
 }
 
 @media (max-width: 768px) {
+    .projects-section {
+        padding: 3rem 1rem;
+    }
+
     .project-card {
-        min-width: 90%;
-        flex: 0 0 auto;
-        scroll-snap-align: center;
+        width: 100%;
         padding: 1.5rem;
     }
 
     .projects-container {
-        flex-direction: row;
-        overflow-x: auto;
-        scroll-snap-type: x mandatory;
-        scroll-padding: 1rem;
-        -webkit-overflow-scrolling: touch;
-        padding-bottom: 1rem;
+        gap: 2rem;
     }
 
     .project-card-content {
         flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .project-image-wrapper img {
+        height: 200px;
     }
 
     .project-title {
@@ -204,7 +206,7 @@
     }
 
     .project-links {
-        justify-content: flex-start;
+        justify-content: center;
     }
 }
 

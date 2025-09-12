@@ -31,7 +31,7 @@ const categoryDisplayNames = {
 
 const skillsData = {
     Languages: [
-        { name: 'Java', icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" style={{ width: 60 }} /> },
+        { name: 'Java', icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" /> },
         { name: 'HTML 5', icon: <SiHtml5 size={60} color="#e34f26" /> },
         { name: 'CSS 3', icon: <SiCss3 size={60} color="#1572B6" /> },
         { name: 'JavaScript', icon: <SiJavascript size={60} color="#f7df1e" /> },
@@ -44,8 +44,8 @@ const skillsData = {
     Frameworks: [
         { name: 'Spring Boot', icon: <SiSpringboot size={60} color="#6db33f" /> },
         { name: 'Spring Framework', icon: <SiSpring size={60} color="#6db33f" /> },
-        { name: 'Spring MVC', icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring MVC" style={{ width: 60 }} /> },
-        { name: 'Hibernate', icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hibernate/hibernate-original.svg" alt="Hibernate" style={{ width: 60 }} /> },
+        { name: 'Spring MVC', icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring MVC" /> },
+        { name: 'Hibernate', icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hibernate/hibernate-original.svg" alt="Hibernate" /> },
         { name: 'RESTful APIs', icon: <MdApi size={60} color="#4B5563" /> },
         { name: 'SOAP', icon: <MdApi size={60} color="#0078D4" /> },
     ],
@@ -56,7 +56,7 @@ const skillsData = {
         { name: 'Postman', icon: <SiPostman size={60} color="#FF6C37" /> },
     ],
     Dev: [
-        { name: 'AWS', icon: <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" style={{ width: 60 }} /> },
+        { name: 'AWS', icon: <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" /> },
         { name: 'Docker', icon: <SiDocker size={60} color="#0db7ed" /> },
         { name: 'Git', icon:<SiGit size={60} color="#f1502f" /> },
         { name: 'Github', icon: <SiGithub size={60} color="#181717" /> },

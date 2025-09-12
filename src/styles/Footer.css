@@ -46,8 +46,20 @@
 
 /* Responsive */
 @media (max-width: 768px) {
+    .footer {
+        padding: 0.7rem 1rem;
+    }
+
+    .footer-content {
+        padding: 0 1rem;
+    }
+
     .footer-name {
         font-size: 1.2rem;
+    }
+
+    .footer-socials {
+        gap: 1rem;
     }
 
     .footer-socials a {
@@ -62,6 +74,10 @@
 @media (max-width: 480px) {
     .footer {
         padding: 1rem 1rem;
+    }
+
+    .footer-content {
+        padding: 0 0.5rem;
     }
 
     .footer-socials {
