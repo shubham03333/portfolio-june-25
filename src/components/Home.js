@@ -8,6 +8,7 @@ import { Download, ArrowDownToLine } from "lucide-react";
 import awsPractitioner from "../assets/aws-practitioner.png";
 import awsSAA from "../assets/aws-saa.png";
 import awsDVA from "../assets/aws-dva.png";
+import ai900 from "../assets/ai900.png";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { SiCredly } from "react-icons/si";
@@ -90,6 +91,13 @@ const Home = () => {
               rel="noopener noreferrer"
             >
               <img src={awsDVA} alt="AWS Developer Associate" />
+            </a>
+             <a
+              href="https://learn.microsoft.com/api/credentials/share/en-us/ShubhamJadhav-0209/22CFDB5343FA3114?sharingId"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={ai900} alt="Ai 900" />
             </a>
           </div>
 
