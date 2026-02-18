@@ -27,7 +27,7 @@ const About = () => {
             <p className="about-text">
               Hey there! 👋 I'm <strong>Shubham Jadhav</strong>, a{" "}
               <strong>Java Backend Developer</strong> with{" "}
-              <strong>3+ years of experience</strong> building clean, scalable
+              <strong>5+ years of experience</strong> building clean, scalable
               applications using{" "}
               <strong>
                 <em>Java</em>
