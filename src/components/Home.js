@@ -108,9 +108,10 @@ const Home = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1.2, duration: 0.6 }}
           >
-            <a
+            <a 
               href="https://drive.google.com/file/d/1kDDRNdAD1sfcl3HJruqC-tV-ABViGME7/view?usp=drive_link"
               target="_blank"
+              rel="noopener noreferrer"
               className="download-btn"
               download
             >
